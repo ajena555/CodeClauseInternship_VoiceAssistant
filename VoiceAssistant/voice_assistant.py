@@ -149,7 +149,7 @@ if __name__ == "__main__":
             note(note_txt)
             speak('Its done!')
 
-        elif 'who are you' in query or 'define yourself' in query:
+        elif 'who are you' in query or 'define yourself' in query or 'explain yourself' in query:
             speak("""I am a voice assistant. Your assistant. I am here to make your life easier. I can perform some basic tasks such 
             as opening websites, applications, make notes, tell jokes, search on wikipedia etcetra """)
 
